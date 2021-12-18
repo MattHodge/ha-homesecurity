@@ -1,0 +1,50 @@
+site_name: Home Security with Home Assistant 🔐 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+  palette:
+    - scheme: default
+      primary: red
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/MattHodge
+    - icon: fontawesome/brands/github
+      link: https://github.com/MattHodge
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/matthewhodgkins
+    - icon: fontawesome/solid/blog
+      link: https://hodgkins.io
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Made with ❤️ by Matthew Hodgkins
